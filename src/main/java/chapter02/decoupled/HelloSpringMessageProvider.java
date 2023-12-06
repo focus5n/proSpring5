@@ -1,4 +1,5 @@
-package decoupled;
+package chapter02.decoupled;
+
 
 public class HelloSpringMessageProvider implements MessageProvider {
 

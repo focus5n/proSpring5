@@ -1,7 +1,7 @@
-package decoupled;
+package chapter02.decoupled;
 
-public class StandardOutMessageRenderer implements MessageRenderer {
-    private MessageProvider messageProvider;
+public class StandardOutMessageRenderer implements chapter02.decoupled.MessageRenderer {
+    private chapter02.decoupled.MessageProvider messageProvider;
 
     @Override
     public void render() {
@@ -17,12 +17,12 @@ public class StandardOutMessageRenderer implements MessageRenderer {
     }
 
     @Override
-    public void setMessageProvider(MessageProvider provider) {
+    public void setMessageProvider(chapter02.decoupled.MessageProvider provider) {
         this.messageProvider = provider;
     }
 
     @Override
-    public MessageProvider getMessageProvider() {
+    public chapter02.decoupled.MessageProvider getMessageProvider() {
         return this.messageProvider;
     }
 }
